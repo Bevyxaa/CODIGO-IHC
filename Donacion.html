@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realizar Donación</title>
+    <link rel="stylesheet" href="Donacion.css">
+</head>
+<body>
+    <div class="contenedor-principal">
+        <header class="contenedor-arriba">
+            <div class="logo">
+                <img src="Imagenes/LogoHunger.jpg" alt="LogoHunger">
+            </div>
+                <!-- INICIO, NOSOTROS, DONACIONES, CONTACTOS, LOGO -->
+                <nav class="enlaces">
+                    <!-- Enlaces de cabecera -->
+                    <a href="Inicio.Html">INICIO</a>
+                    <a href="Nosotros.html">NOSOTROS</a>
+                    <a href="Donaciones.html">DONACIONES</a>
+                    <a href="Contactos.html">CONTACTOS</a>
+                    <!-- Imagen tipo icono: -->
+                    <!-- <img class="icono" src="Imagenes/icono_1.png" alt="icono1"> -->
+                </nav>
+        </header>
+
+        <div class="contenedor1">
+        
+            <form action="" class="form1">
+                <label for="">Tipo de Alimento</label>
+                <br>
+                <input type="text"class="tipo_producto" name="tipo_producto" placeholder="Frutas, verduras, carnes, etc">
+                <br>
+                <label for="">Cantidad</label>
+                <br>
+                <input type="text" name="cantidad" id="cantidad" placeholder="Especificar unidades o kg">
+                <br>
+                <label for="">Fecha de Vencimiento</label>
+                <br>
+               <input type="datetime-local" name="Fecha_vec" id="Fecha_vec" placeholder="">
+               <br>
+               <label for="">Ubicación</label>
+               <br>
+               <input type="text" name="ubicacion" id="ubicacion" placeholder="Especificar zona">
+               <br>
+               <br>
+               <input type="button" value="Enviar" class="enviar1" id="enviar1">
+
+            </form>
+        </div>
+
+
+        <div class="contenedor2">
+            <form action="" class="form2">
+                <label for="">Nombre Completo</label>
+                <br>
+                <input type="text"class="nombre" name="nombre" placeholder="Nombres y apellidos">
+                <br>
+                <label for="">Edad</label>
+                <br>
+                <input type="text" name="edad" id="edad" placeholder="Insertar edad">
+                <br>
+                <label for="">Disponibilidad</label>
+                <br>    
+               <input type="datetime-local" name="Fecha_vec" id="Fecha_vec" placeholder="Fecha de Vencimiento">
+               <br>
+               <label for="">Ubicación</label>
+               <br>
+               <input type="text" name="ubicacion" id="ubicacion" placeholder="Indicar zona de voluntariado">
+               <br>
+               <br>
+                <input type="button" value="Enviar" class="enviar2" id="enviar2">
+            </form>
+        </div>
+
+        <div class="contenedor3">
+            <form action="" class="form3">
+                <label for="">Monto a colaborar</label>
+                <br>
+                <input type="text"class="monto" name="monto" placeholder="Monto en soles">
+                <br>
+                <br>
+                <label for="">Metodo de pago</label>
+                <br>
+                <br>
+                <img src="Imagenes/logo-american.jpg" alt="Logo1">
+                <img src="Imagenes/logo-yape.png" alt="Logo2">
+                <img src="Imagenes/logo-plim.png" alt="Logo3">
+                <br>
+                <img src="Imagenes/logo-visa.png" alt="Logo4">
+                <img src="Imagenes/logo-mastercard.png" alt="Logo6">
+                <br>
+                <br>
+                <input type="button" value="Enviar" class="enviar3" id="enviar3">
+            </form>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>

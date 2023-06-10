@@ -1,0 +1,96 @@
+body{
+    background-color: #838383;
+    font-family: 'Inter';
+}
+/* Cabecera */
+header{
+    background-color: #5F5C6D;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Letra:INICIO, NOSOTROS, DONACIONES, CONTACTOS, LOGO */
+header a{
+font-family: 'Inter';
+text-decoration:none;
+color: #FFFFFF;
+font-weight: 800;
+font-size: 20px;
+margin: 12px;
+}
+/* primera seccion */
+.seccion1{
+    height: 500px;
+    background-color: #A9CEC2;
+    border-radius: 20px;
+   
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+/* segunda seccion  */
+.seccion2{
+    height: 200px;
+    background-color: #838383;
+    display: flex;
+
+    justify-content: center;
+    align-items: flex-end;
+    text-align: justify;
+    flex-direction: column;
+}
+/* boton de unete aqui */
+button{
+    flex-direction: column;
+
+
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+
+    display: flex;
+    background-color: #A9CEC2;
+    border-radius: 40px;
+    width: 185px;
+    height: 55px;
+    font-weight: 900;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: -60px;
+
+}
+/* el parrafo de info sobre la pag */
+.parrafo{
+    justify-content: center;
+    text-align: justify;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #FFFFFF;
+    font-size: 25px;
+    left: 50px;
+    display: flex;
+    margin-top: -165px;
+}
+/* la seccion del medio es donde sale la frase: Alimento para todos */
+.seccion-medio{
+    display: flex;
+    height: 70px;
+    background: #D9D9D9;
+
+    margin-left: 250px;
+    margin-right:250px ;
+    border-radius: 40px;
+    margin-top: -40px;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #2E965E;
+    font-weight: 1800px;
+    font-size: 36px;
+    font-style: normal;
+}
+

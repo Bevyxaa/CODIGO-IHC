@@ -1,0 +1,76 @@
+body{
+    background-color: #838383;
+    font-family: 'Inter';
+}
+/* Cabecera */
+header{
+    background-color: #5F5C6D;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Letra:INICIO, NOSOTROS, DONACIONES, CONTACTOS, LOGO */
+header a{
+font-family: 'Inter';
+text-decoration:none;
+color: #FFFFFF;
+font-weight: 800;
+font-size: 20px;
+margin: 12px;
+}
+.contenedor1{
+height: 400px;
+background-color:#838383;
+
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: justify;
+display: flex;
+align-items: center;
+
+}
+.caja-texto{
+
+    height: 250px;
+    background-color: #A9CEC2;
+    padding: 4%;
+    font-family: 'Inter';
+    margin: 100px;
+    border-radius: 30px;
+    font-size:23px;
+
+}
+.titulo{
+    color: #FFFFFF;
+    margin-top: -40px;
+}
+.imagen-logo2{
+justify-content: center;
+align-items: center;
+flex-direction: column;
+text-align: justify;
+display: flex;
+align-items: center; 
+
+}
+.imagen-logo2 img{
+    border-radius: 20px;
+    margin-top: -640px;
+    display: flex;
+}
+.imagenes-participantes{
+justify-content: center;
+align-items: center;
+flex-direction: row;
+text-align: justify;
+display: flex;
+align-items: center; 
+}
+.imagenes-participantes img{
+border-radius: 360px;
+margin: 25px;
+
+}
